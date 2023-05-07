@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.buttons {
+  width: 200px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(70, 255, 218, 0.323);
+  border: 2px solid rgba(0, 178, 142, 0.612);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 4px;
+  background-color: rgba(99, 252, 221, 0.247);
+  border: 1px solid rgba(22, 145, 120, 0.662);
+  border-radius: 5px;
+}
+
+.slide {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(70, 255, 218, 0.323);
+  border: 2px solid rgba(0, 178, 142, 0.612);
+  border-radius: 20px;
+}
